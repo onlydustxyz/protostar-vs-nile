@@ -1,0 +1,29 @@
+["protostar.config"]
+protostar_version = "0.1.0"
+
+["protostar.project"]
+libs_path = "lib"
+
+["protostar.contracts"]
+main = [
+    "./src/main.cairo",
+]
+main-2 = [ "./src/main-2.cairo" ]
+main-3 = [ "./src/main-3.cairo" ]
+main-4 = [ "./src/main-4.cairo" ]
+main-5 = [ "./src/main-5.cairo" ]
+main-6 = [ "./src/main-6.cairo" ]
+main-7 = [ "./src/main-7.cairo" ]
+main-8 = [ "./src/main-8.cairo" ]
+main-9 = [ "./src/main-9.cairo" ]
+main-10 = [ "./src/main-10.cairo" ]
+main-11 = [ "./src/main-11.cairo" ]
+main-12 = [ "./src/main-12.cairo" ]
+main-13 = [ "./src/main-13.cairo" ]
+main-14 = [ "./src/main-14.cairo" ]
+main-15 = [ "./src/main-15.cairo" ]
+main-16 = [ "./src/main-16.cairo" ]
+main-17 = [ "./src/main-17.cairo" ]
+main-18 = [ "./src/main-18.cairo" ]
+main-19 = [ "./src/main-19.cairo" ]
+main-20 = [ "./src/main-20.cairo" ]
