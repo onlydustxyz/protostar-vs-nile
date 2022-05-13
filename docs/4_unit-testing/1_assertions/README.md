@@ -112,7 +112,7 @@ async def test_increase_balance():
 ### Assert on event emissions
 
 In order to test the event emission, we can check the execution_info variable in the unit test. For that, we need a bit of helpers functions.
-Utils functions can be found no [OpenZeppelin repository](https://github.com/OpenZeppelin/cairo-contracts/blob/main/tests/utils.py)
+Utils functions can be found on [OpenZeppelin repository](https://github.com/OpenZeppelin/cairo-contracts/blob/main/tests/utils.py)
 
 ```python
 from starkware.starknet.business_logic.execution.objects import Event
