@@ -6,11 +6,14 @@ Although it is possible to debug a cairo program using [some tricks](https://www
 
 ## nile
 
+With `nile`, it is of course possible to print any kind of information from the unit test (by using the `pytest -s` command).
+However, it is not possible to print anything from the smart contract code itself.
+
 :x: no extra tool to help unit test debugging
 
 ## protostar
 
-As protostar allows the usage of hints in a unit test, it is also possible to use them in the smart contract code -- as long as the tested function is imported in the unit test (and not deployed using a hint)
+As protostar allows the usage of hints in a unit test, it is also possible to __use hints in the smart contract code__ -- as long as the tested function is imported in the unit test (and not deployed using a hint)
 
 Here is an example.
 
