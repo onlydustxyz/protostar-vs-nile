@@ -19,16 +19,20 @@ The main added value is the support of the `localhost` network.
 
 ## protostar
 
-`protostar` does not provide any command/tool to help with the deployment/interaction of a contract.
-It also does not provide a local devnet for testing purposes.
-It fully relies on `starknet-*` commands. The full list can be found [here](https://www.cairo-lang.org/docs/hello_starknet/cli.html)
+`protostar` offers the possibility to [deploy a smart contract](https://docs.swmansion.com/protostar/docs/tutorials/guides/deploying) once it has been compiled.
+The interface is similar to the [`starknet-deploy`](https://www.cairo-lang.org/docs/hello_starknet/cli.html) API:
+```
+protostar deploy ./build/main.json --network alpha-goerli
+```
+However, there is local devnet support.
 
+:heavy_check_mark: support of contract deployment <br/>
 :x: lack of local devnet
 
 
 ## Conclusion
 
-| nile                                                                                                                 | protostar                |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| :heavy_check_mark: several useful commands to deploy and interact with a contract                                    | :x: lack of local devnet |
-| :heavy_check_mark: support of a local node using [`starknet-devnet`](https://github.com/Shard-Labs/starknet-devnet/) |                          |
+| nile                                                                                                                 | protostar                                         |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| :heavy_check_mark: several useful commands to deploy and interact with a contract                                    | :heavy_check_mark: support of contract deployment |
+| :heavy_check_mark: support of a local node using [`starknet-devnet`](https://github.com/Shard-Labs/starknet-devnet/) | :x: lack of local devnet                          |

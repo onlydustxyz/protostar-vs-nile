@@ -1,17 +1,17 @@
 <div align="center">
   <h1 align="center">protostar vs nile</h1>
   <p align="center">
-    <a href="http://makeapullrequest.com">
-      <img alt="pull requests welcome badge" src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat">
+    <a href="https://discord.gg/onlydust">
+        <img src="https://img.shields.io/badge/Discord-6666FF?style=for-the-badge&logo=discord&logoColor=white"/>
     </a>
     <a href="https://twitter.com/intent/follow?screen_name=onlydust_xyz">
-        <img src="https://img.shields.io/twitter/follow/onlydust_xyz?style=social&logo=twitter"
-            alt="follow on Twitter"></a>
-    <a href="https://opensource.org/licenses/Apache-2.0"><img src="https://img.shields.io/badge/License-Apache%202.0-blue.svg"
-            alt="License"></a>
-    <a href=""><img src="https://img.shields.io/badge/semver-0.0.1-blue"
-            alt="License"></a>            
+        <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+    </a>
+    <a href="https://contributions.onlydust.xyz/">
+        <img src="https://img.shields.io/badge/Contribute-6A1B9A?style=for-the-badge&logo=notion&logoColor=white"/>
+    </a>
   </p>
+
 </div>
 
 This repository aims at comparing 2 development frameworks for starknet smart contract development:
@@ -124,6 +124,7 @@ Here is the full list of comparisons:
             :heavy_check_mark: support of a local node using <a href="https://github.com/Shard-Labs/starknet-devnet/"><code>starknet-devnet</code></a>
          </td>
          <td>
+            :heavy_check_mark: support of contract deployment<br/>
             :x: lack of local devnet
          </td>
       </tr>
