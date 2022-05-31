@@ -124,6 +124,7 @@ Here is the full list of comparisons:
             :heavy_check_mark: support of a local node using <a href="https://github.com/Shard-Labs/starknet-devnet/"><code>starknet-devnet</code></a>
          </td>
          <td>
+            :heavy_check_mark: support of contract deployment<br/>
             :x: lack of local devnet
          </td>
       </tr>
